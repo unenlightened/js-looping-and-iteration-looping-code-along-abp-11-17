@@ -2,7 +2,7 @@
 
 function printBadges (employees) {
   for (let i = 0; i < employees.length; i++) {
-    console.log(`Wrapped ${employees[i]} and added a bow!`);
+    console.log(`Welcome ${employees[i]}! You are employee #` i + 1);
   }
 
   return employees;
