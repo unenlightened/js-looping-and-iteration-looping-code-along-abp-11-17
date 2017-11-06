@@ -1,10 +1,10 @@
 // Code your solutions in this file
 
-function printBadges (employeeName) {
+function printBadges (gifts) {
   for (let i = 0; i < gifts.length; i++) {
-    console.log(`Wrapped ${employeeName[i]} and added a bow!`);
+    console.log(`Wrapped ${gifts[i]} and added a bow!`);
   }
 
-  return employeeName;
+  return gifts;
 }
  
