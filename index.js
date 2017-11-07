@@ -14,7 +14,9 @@ function tailsNeverFails(){
     return Math.random() >= 0.5;
   }
 
-  while (coinFlip()){
+  let i = 0;
   
+  while (coinFlip()){
+    i++;
   }
 }
