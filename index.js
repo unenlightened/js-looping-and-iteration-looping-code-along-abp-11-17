@@ -10,11 +10,12 @@ function printBadges (employees) {
 
 function tailsNeverFails(){
 
+  let i = 0;
+
   function coinFlip(){
     return Math.random() >= 0.5;
   }
 
-  let i = 0;
 
   while (coinFlip()){
     i++;
